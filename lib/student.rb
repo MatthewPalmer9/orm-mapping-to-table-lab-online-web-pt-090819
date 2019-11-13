@@ -10,7 +10,7 @@ class Student
 
   def self.create_table
     sql = <<-SQL
-      CREATE TABLE 
+      CREATE TABLE IF NOT EXISTS 
     SQL
   end
   # Remember, you can access your database connection anywhere in this class
