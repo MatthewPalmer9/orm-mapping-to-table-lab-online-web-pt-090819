@@ -19,11 +19,8 @@ class Student
     DB[:conn].execute(sql)
   end
 
-  def self.create(hash)
-    hash.each(){|key, value|
-      
-    }
-
+  def self.create(name:, grade:)
+    
   end
 
   def self.drop_table
